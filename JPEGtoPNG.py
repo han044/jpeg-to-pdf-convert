@@ -4,7 +4,6 @@ from PIL import Image
 
 
 def convertImageToPng():
-    '''i points to the current index to disallow file replacement'''
     i = len(os.listdir(new_fold)) + 1
     for index in os.listdir(ex_fold):
         img = Image.open("./" + ex_fold + "/" + index)
