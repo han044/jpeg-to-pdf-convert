@@ -24,7 +24,7 @@ except IndexError as err:
 try:
     os.mkdir(new_fold)
 except FileExistsError:
-    print("\n\n Directory Already exists! ")
+    print("\n\n Folder Already exists! ")
 
 
 print("\n Converting to Png...")
