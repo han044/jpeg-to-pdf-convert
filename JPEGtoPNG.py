@@ -4,7 +4,6 @@ Note: This will only work when folder is selected. modify accordingly
 '''
 
 import os
-import sys
 from PIL import Image
 
 
